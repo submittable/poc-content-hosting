@@ -2,12 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: poc-content-hosting
-  description: React wrapper for Ladda buttons.
+  description: "React wrapper for Ladda buttons."
   annotations:
     github.com/project-slug: submittable/poc-content-hosting
   tags: []
 spec:
   type: service
   owner: group:submittable/infrastructure
-  lifecycle: experimental
+  lifecycle: production
   
